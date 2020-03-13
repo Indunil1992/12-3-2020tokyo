@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1f7a32af-93e1-4a65-b8e2-a6cfb577dc0a": {
+        "id": "1f7a32af-93e1-4a65-b8e2-a6cfb577dc0a",
+        "parent": null,
+        "name": "12-3-2020tokyo.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "12-3-2020tokyo.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapNortheast1S3UpAPIreportany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "1f7a32af-93e1-4a65-b8e2-a6cfb577dc0a"
+    ],
+    "currentFileId": "1f7a32af-93e1-4a65-b8e2-a6cfb577dc0a",
+    "resources": {
+      "apigapNortheast1S3UpAPIreportany": {
+        "name": "apigapNortheast1S3UpAPIreportany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-northeast-1",
+          "apiMode": 1,
+          "apiName": "S3UpAPI",
+          "apiId": "4izuh5pv76",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "ul8v5plyi4",
+          "existingResources": {
+            "/report": "39jm93",
+            "/": "ul8v5plyi4"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/report",
+          "resourceName": "report",
+          "resourceId": "39jm93",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "djmsjv",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "12-3-2020tokyo",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1584082489147
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "12-3-2020tokyo",
+      "url": "https://github.com/Indunil1992/12-3-2020tokyo"
+    }
+  }
+}
